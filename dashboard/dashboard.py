@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load dataset
-df = pd.read_csv('/day.csv')
+df = pd.read_csv('data/day.csv')
 
 # Streamlit UI
 st.title('Bike Sharing Data Analysis Dashboard')
