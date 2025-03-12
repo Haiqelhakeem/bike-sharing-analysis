@@ -8,7 +8,7 @@ import datetime
 st.set_page_config(page_title="Bike Sharing Dashboard", layout="wide")
 
 # Load dataset
-df = pd.read_csv('day.csv')
+df = pd.read_csv('data/day.csv')
 
 # Konversi kolom date menjadi datetime
 df['dteday'] = pd.to_datetime(df['dteday'])
